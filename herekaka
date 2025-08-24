@@ -1,5 +1,6 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
-
+if game.PlaceId  == "168556275" then
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+end
 MakeWindow({
   Hub = {
     Title = "MODz HUB",
